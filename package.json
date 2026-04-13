@@ -1,0 +1,42 @@
+{
+  "name": "kbo-api",
+  "version": "0.1.0",
+  "description": "KBO(한국프로야구) 공식 사이트 API 클라이언트 - 경기 일정, 스코어, 문자중계, 박스스코어 조회",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "kbo",
+    "korean-baseball",
+    "baseball",
+    "sports",
+    "live-text",
+    "문자중계",
+    "야구",
+    "한국프로야구"
+  ],
+  "author": "kimyt990501",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimyt990501/kbo-api.git"
+  },
+  "homepage": "https://github.com/kimyt990501/kbo-api#readme",
+  "bugs": {
+    "url": "https://github.com/kimyt990501/kbo-api/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.0.0"
+  }
+}
